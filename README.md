@@ -38,6 +38,7 @@ If no role name is supplied, it will apply a red border and console log all elem
   - This includes the selectors that are automatically masked (e.g., "input[type='password']")
   - The list of selectors is de-duped before scanning.
 - It will then apply a red border and console log all elements found on the page that match one of those selectors.
+- This is a good option to use if the page is not tagged at all.
 
 **Parameters:**
 
