@@ -87,7 +87,7 @@ async function showMaskedElements(roleName) {
     if (roleName) {
       selectors = await getGroupMaskingRules(roleName);
     } else {
-      selectors = await getGroupMaskingRules(roleName);
+      selectors = await getGroupMaskingRules();
     }
     var results = showTheseMaskedElements(selectors);
     if (results.length === 0) {
@@ -99,13 +99,3 @@ async function showMaskedElements(roleName) {
     console.log(error);
   }
 }
-
-// Sample list
-// const selectors = [
-//   ".user-input-field",
-//   "#logo",
-//   "nav",
-//   "#presenceSetting",
-//   ".config",
-//   "input[type='password']",
-// ];
