@@ -1,8 +1,11 @@
 # Highlight Masked Elements
 
-Paste all of the code from [showMaskedElements.js](/showMaskedElements.js) into the browser console and click return.
+This utility is designed to help identify which elements on a webpage will be masked during a cobrowse session, either for a specific role or for all roles. Further, it will list which rule or rules are causing the masking on a per-element basis.
 
-Then run one of the functions listed below in the `External Use` section.
+To use it, follow these steps:
+
+1. Paste all of the code from [showMaskedElements.js](/showMaskedElements.js) into the browser console and click return.
+1. Then run one of the functions listed below in the `External Use` section: `showMaskedElements(roleName?)` or `showTheseMaskedElements([selectors])`.
 
 ## For External Use
 
